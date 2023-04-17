@@ -1,5 +1,5 @@
 {
-  "name": "@quackware/.well-known",
+  "name": "@quackware/well-known",
   "description": "Files for well known URIs",
   "version": "0.0.1"
 }
