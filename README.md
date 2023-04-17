@@ -1,3 +1,3 @@
 # @quackware/.well-known
 
-Files for well known URIs
+Well known URIs
