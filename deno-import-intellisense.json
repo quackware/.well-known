@@ -3,22 +3,22 @@
   "version": 2,
   "registries": [
     {
-      "schema": "/:repository?",
+      "schema": "/:module?",
       "variables": [
         {
-          "key": "repository",
-          "documentation": "https://github-intellisense.quack.rest/documentation/${repository}",
-          "url": "https://github-intellisense.quack.rest/completions/${repository}"
+          "key": "module",
+          "documentation": "https://github-intellisense.quack.rest/documentation/${module}",
+          "url": "https://github-intellisense.quack.rest/completions/${module}"
         }
       ]
     },
     {
-      "schema": "/:repository/:path*",
+      "schema": "/:module/:path*",
       "variables": [
         {
-          "key": "repository",
-          "documentation": "https://github-intellisense.quack.rest/documentation/${repository}",
-          "url": "https://github-intellisense.quack.rest/completions/${repository}"
+          "key": "module",
+          "documentation": "https://github-intellisense.quack.rest/documentation/${module}",
+          "url": "https://github-intellisense.quack.rest/completions/${module}"
         },
         {
           "key": "path",
